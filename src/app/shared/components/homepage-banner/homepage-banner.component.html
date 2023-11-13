@@ -1,0 +1,7 @@
+<div class="homepage-banner-container">
+  <div *ngFor="let slide of homePageSlider; let i = index" class="slide"
+  [style.transform]="i === currentSlideIndex ? 'translateX(0)' : 'translateX(-100%)'"
+  [style.transition]="isTransitioning ? 'transform 2s ease-in-out' : 'none'">
+  <img class="slider-image" [src]="slide.image" alt="Slide {{ i + 1 }}">
+</div>
+</div>
