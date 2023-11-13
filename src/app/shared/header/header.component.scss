@@ -1,0 +1,20 @@
+:host {
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 20px;
+      cursor: pointer;
+    }
+  }
+  .navbar-container {
+    border: 1px solid black;
+    padding: 15px;
+  }
+}
